@@ -1,23 +1,37 @@
 {
-	"Version": 3,
-	"FileReferences": {
-		"Moc": "MathSocModel.moc3",
-		"Textures": [
-			"MathSocModel.1024/texture_00.png"
-		],
-		"Physics": "MathSocModel.physics3.json",
-		"DisplayInfo": "MathSocModel.cdi3.json"
-	},
-	"Groups": [
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": []
-		},
-		{
-			"Target": "Parameter",
-			"Name": "LipSync",
-			"Ids": []
-		}
-	]
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "MathSocModel.moc3",
+    "Textures": ["MathSocModel.1024/texture_00.png"],
+    "Physics": "MathSocModel.physics3.json",
+    "Pose": "MathSocModel.pose3.json",
+    "DisplayInfo": "MathSocModel.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "empty",
+        "File": "empty.exp3.json"
+      },
+      {
+        "Name": "blink",
+        "File": "blink.exp3.json"
+      },
+      {
+        "Name": "cute",
+        "File": "cute.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ],
+  "HitAreas": []
 }
