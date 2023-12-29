@@ -12,12 +12,40 @@
         "File": "empty.exp3.json"
       },
       {
+        "Name": "angry",
+        "File": "angry.exp3.json"
+      },
+      {
         "Name": "blink",
         "File": "blink.exp3.json"
       },
       {
         "Name": "cute",
         "File": "cute.exp3.json"
+      },
+      {
+        "Name": "happy",
+        "File": "happy.exp3.json"
+      },
+      {
+        "Name": "hide",
+        "File": "hide.exp3.json"
+      },
+      {
+        "Name": "hmmph",
+        "File": "hmmph.exp3.json"
+      },
+      {
+        "Name": "pout",
+        "File": "pout.exp3.json"
+      },
+      {
+        "Name": "startled",
+        "File": "startled.exp3.json"
+      },
+      {
+        "Name": "what",
+        "File": "what.exp3.json"
       }
     ]
   },
