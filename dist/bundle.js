@@ -12234,6 +12234,7 @@
                     });
                 }
                 document.getElementsByTagName("html")[0].style.background = "black";
+                document.getElementsByTagName("html")[0].style.background = "green";
                 if (document.readyState === "complete") {
                     load();
                     document.getElementsByTagName("html")[0].style.background = "blue";
