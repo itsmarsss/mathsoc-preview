@@ -12254,9 +12254,7 @@
                         document.getElementById("name").innerHTML = "Check point 1";
                     }
                     catch (e) {
-                        if (e instanceof Error) {
-                            document.getElementById("name").innerHTML = e.message;
-                        }
+                        document.getElementById("name").innerHTML = e.message;
                     }
                     forceBlink();
                 }
