@@ -10,7 +10,6 @@
   !*** ../../../Framework/src/cubismdefaultparameterid.ts ***!
   \**********************************************************/
 /***/ (function (__unused_webpack_module, exports, __webpack_require__) {
-                document.getElementsByTagName("html")[0].style.background = "black";
 
                 var __createBinding = (this && this.__createBinding) || (Object.create ? (function (o, m, k, k2) {
                     if (k2 === undefined) k2 = k;
@@ -12181,6 +12180,7 @@
   \*********************/
 /***/ (function (__unused_webpack_module, exports, __webpack_require__) {
 
+                document.getElementsByTagName("html")[0].style.background = "black";
 
                 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
                     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
