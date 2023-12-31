@@ -12247,9 +12247,11 @@
                             document.getElementsByTagName("html")[0].style.background = "red";
                             //return;
                         }
+                        document.getElementsByTagName("html")[0].style.background = "green";
                         if (!lappdelegate_1.LAppDelegate.getInstance().initialize()) {
                             document.getElementsByTagName("html")[0].style.background = "orange";
                         }
+                        document.getElementsByTagName("html")[0].style.background = "black";
                         lappdelegate_1.LAppDelegate.getInstance().run();
                         document.getElementById("name").innerHTML = "Check point 1";
                     }
