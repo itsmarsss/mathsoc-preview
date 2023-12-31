@@ -12242,12 +12242,13 @@
                 }
                 function load() {
                     document.getElementsByTagName("html")[0].style.background = "blue";
-                    if (!lappglmanager_1.LAppGlManager.getInstance() ||
-                        !lappdelegate_1.LAppDelegate.getInstance().initialize()) {
+                    if (!lappglmanager_1.LAppGlManager.getInstance()) {
                         document.getElementsByTagName("html")[0].style.background = "red";
                         //return;
                     }
-                    document.getElementsByTagName("html")[0].style.background = "orange";
+                    if (!lappdelegate_1.LAppDelegate.getInstance().initialize()) {
+                        document.getElementsByTagName("html")[0].style.background = "orange";
+                    }
                     try {
                         lappdelegate_1.LAppDelegate.getInstance().run();
                         document.getElementById("name").innerHTML = "Check point 1";
