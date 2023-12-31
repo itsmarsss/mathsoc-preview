@@ -12236,9 +12236,11 @@
                 document.getElementsByTagName("html")[0].style.background = "black";
                 if (document.readyState === "complete") {
                     load();
+                    document.getElementsByTagName("html")[0].style.background = "blue";
                 }
                 else {
                     window.addEventListener("load", load);
+                    document.getElementsByTagName("html")[0].style.background = "purple";
                 }
                 function load() {
                     if (!lappglmanager_1.LAppGlManager.getInstance() ||
@@ -12261,6 +12263,7 @@
                     lappdelegate_1.LAppDelegate.getInstance().onResize();
                 }, { passive: true });
 
+                document.getElementsByTagName("html")[0].style.background = "cyan";
 
                 /***/
             }),
