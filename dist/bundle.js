@@ -1,5 +1,5 @@
 
-document.getElementsByTagName("html")[0].style.background = "black";
+
 
 /******/ (function () { // webpackBootstrap
 /******/ 	"use strict";
@@ -10,7 +10,7 @@ document.getElementsByTagName("html")[0].style.background = "black";
   !*** ../../../Framework/src/cubismdefaultparameterid.ts ***!
   \**********************************************************/
 /***/ (function (__unused_webpack_module, exports, __webpack_require__) {
-
+                document.getElementsByTagName("html")[0].style.background = "black";
 
                 var __createBinding = (this && this.__createBinding) || (Object.create ? (function (o, m, k, k2) {
                     if (k2 === undefined) k2 = k;
