@@ -12180,7 +12180,7 @@
   \*********************/
 /***/ (function (__unused_webpack_module, exports, __webpack_require__) {
 
-                document.getElementsByTagName("html")[0].style.background = "black";
+                document.getElementsByTagName("html")[0].style.background = "red";
 
                 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
                     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -12191,6 +12191,7 @@
                         step((generator = generator.apply(thisArg, _arguments || [])).next());
                     });
                 };
+                document.getElementsByTagName("html")[0].style.background = "orange";
                 var __generator = (this && this.__generator) || function (thisArg, body) {
                     var _ = { label: 0, sent: function () { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
                     return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () { return this; }), g;
@@ -12224,6 +12225,7 @@
                 var sleep = function (milliseconds) {
                     return new Promise(function (resolve) { return setTimeout(resolve, milliseconds); });
                 };
+                document.getElementsByTagName("html")[0].style.background = "yellow";
                 function forceBlink() {
                     return __awaiter(this, void 0, void 0, function () {
                         return __generator(this, function (_a) {
