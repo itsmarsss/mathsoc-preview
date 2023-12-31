@@ -1,6 +1,3 @@
-
-
-
 /******/ (function () { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -12263,8 +12260,6 @@
                 window.addEventListener("resize", function () {
                     lappdelegate_1.LAppDelegate.getInstance().onResize();
                 }, { passive: true });
-
-                document.getElementsByTagName("html")[0].style.background = "cyan";
 
                 /***/
             }),
