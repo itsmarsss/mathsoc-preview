@@ -12247,6 +12247,7 @@
                         document.getElementsByTagName("html")[0].style.background = "red";
                         return;
                     }
+                    document.getElementsByTagName("html")[0].style.background = "orange";
                     try {
                         lappdelegate_1.LAppDelegate.getInstance().run();
                         document.getElementById("name").innerHTML = "Check point 1";
