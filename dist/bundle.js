@@ -12243,6 +12243,7 @@
                 function load() {
                     if (!lappglmanager_1.LAppGlManager.getInstance() ||
                         !lappdelegate_1.LAppDelegate.getInstance().initialize()) {
+                        document.getElementsByTagName("html")[0].style.background = "red";
                         return;
                     }
                     try {
