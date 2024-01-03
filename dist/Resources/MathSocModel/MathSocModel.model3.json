@@ -12,6 +12,10 @@
         "File": "empty.exp3.json"
       },
       {
+        "Name": "empty2",
+        "File": "empty2.exp3.json"
+      },
+      {
         "Name": "angry",
         "File": "angry.exp3.json"
       },
